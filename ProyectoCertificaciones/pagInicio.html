@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="pagina1.js"></script>
+<link rel="stylesheet" href="styles.css">
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Buscar maestros:</h1>
+<div>
+    <label>Primer nombre:</label>
+    <input type="text" id="tbSearch"></input> 
+    <button onclick="searchByName()">Buscar</button>    
+</div>
+<button onclick="loadPageAlta()">Ir a Alta Maestro</button>
+<button onclick="loadPagePerfil()">Mostrar perfil del maestro</button>
+<div id='searchMenu'>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="pagina1.js"></script>
+    <title>Page Title</title>
+</head>
+<body>
+    
+    <h1>Alta Maestro:</h1>
+    <p>Ingresa los siguientes datos:</p>
+    <div>
+        <label>Dirección de la cuenta personal:</label>
+        <input id="tbAddress"></input> 
+        
+    </div>
+    <div>
+        <label>Nombre:</label>
+        <input id="tbName"></input> 
+        
+    </div>
+    <div>
+        <label>Apellido:</label>
+        <input id="tbLastName"></input>    
+    </div>
+    <div>
+        <label>Correo Electrónico:</label>
+        <input id="tbEmail"></input>     
+    </div>
+    <div>
+        <label>Institución Educativa:</label>
+        <input id="tbInstitution"></input>     
+    </div>
+    <div>
+        <label>Edad:</label>
+        <input id="tbAge"></input>     
+    </div>
+    <button onclick="registerUser()">Registrar</button>
+    <button onclick="loadPageInicio()">Volver a Búsqueda</button>
+    
+    <p id="text1" style="display: none;">Registrando...</p>
+    <p id="text2" style="display: none;">Registro exitoso</p>
+</body>
+</html>
